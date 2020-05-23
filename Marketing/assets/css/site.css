@@ -1,0 +1,42 @@
+
+#nav {
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.advert{
+    padding-top: 120px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #004C3F;
+}
+
+.noun_title{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.noun_content{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: normal;
+}
+
+.button{
+    background-color: #008060;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #008060;
+}
