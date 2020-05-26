@@ -1,19 +1,28 @@
 
+/* @font-face{
+    font-family: 'Open-Sans-Bold';
+    src: url(fonts/OpenSans-Bold.ttf);
+    
+} */
+
 #nav {
     padding-top: 10px;
 }
 
 a {
-    color: black;
+    color: #42474C;
     text-decoration: none;
     background-color: transparent;
-    font-weight: 500;
-    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .advert{
-    padding-top: 120px;
-    font-size: 50px;
+    padding-top: 130px;
+    margin-top: auto;
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #004C3F;
 }
@@ -21,21 +30,114 @@ a {
 .noun_title{
     margin-top: 20px;
     font-size: 18px;
-    font-weight: bold;
     color: #FFFFFF;
     opacity: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .noun_content{
     margin-top: 20px;
     font-size: 15px;
     color: #FFFFFF;
     opacity: 1;
-    font-weight: normal;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 429px;
 }
 
-.button{
+.button_free{
     background-color: #008060;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
+.button_free2{
+    background-color: #FFFFFF;
+    color: #008060;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.checkout_header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #212326;
+    margin-bottom: 60px;
+}
+.customer_store_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #212326; 
+}
+.customer_store_content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #212326;
+    text-decoration: underline;
+}
+.card_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #212326;
+}
+
+.card_text1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #212326B3;
+}
+.card_learn_more{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #008060;
+}
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 16px;
+    color: #42474C;
+}
+.companyInfo_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2A2E43;
+}
+.companyInfo_content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212326;
+}
+.social_media ul{
+    list-style: none;
+}
+.start_selling{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+}
+.start_selling_desc{
+    
+}
+#element {
+    background-image: url(assets/images/Disha-Website-New.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height:400px;
+  }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #008060;
