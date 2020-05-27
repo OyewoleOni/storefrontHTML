@@ -58,6 +58,12 @@ a {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 16px;
+  width: 268px;
+
+}
+.button_div{
+    text-align: center;
+    margin-top: 50px;
 }
 
 .checkout_header {
@@ -135,10 +141,17 @@ a {
   font-family: "Open Sans", sans-serif;
   font-size: 50px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
+  margin-top: 65px;
 }
 
 .start_selling_desc {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-size: 400;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .testimony-container {
