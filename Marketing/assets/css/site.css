@@ -4,10 +4,21 @@
     
 } */
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+}
+.arrow-img {
+  width: 19%;
+}
+
 #nav {
   padding-top: 10px;
 }
-
 a {
   color: #42474c;
   text-decoration: none;
@@ -18,12 +29,20 @@ a {
 }
 
 .advert {
-  padding-top: 130px;
+  /* padding-top: 130px; */
   margin-top: auto;
   font-size: 55px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #004c3f;
+}
+.shop-btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.green-section {
+  padding: 20px;
+  text-align: center;
 }
 
 .noun_title {
@@ -59,11 +78,10 @@ a {
   font-weight: bold;
   font-size: 16px;
   width: 268px;
-
 }
-.button_div{
-    text-align: center;
-    margin-top: 50px;
+.button_div {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .checkout_header {
@@ -71,7 +89,7 @@ a {
   font-size: 36px;
   font-weight: 600;
   color: #212326;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .customer_store_title {
@@ -142,21 +160,21 @@ a {
   font-size: 50px;
   font-weight: 600;
   text-align: center;
-  margin-top: 65px;
+  /* margin-top: 65px; */
 }
 
 .start_selling_desc {
-    color: #FFFFFF;
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    font-size: 400;
-    text-align: center;
-    margin-top: 20px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-size: 400;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .testimony-container {
   display: flex;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -174,14 +192,18 @@ a {
 }
 
 .testimony-text-container {
+  width: 40%;
   padding: 7px;
 }
 
 .testimony-content {
   padding: 5px;
   font: bold Italic 18px/28px Open Sans;
-  text-align: left;
+  text-align: justify;
   color: #212326;
+}
+#right img {
+  width: 100%;
 }
 
 .user-profile {
@@ -194,9 +216,18 @@ a {
 .carousel-control-prev {
   left: -6% !important;
 }
+.carousel-control-next img {
+  width: 30%;
+}
+.carousel-control-prev img {
+  width: 30%;
+}
 
 .carousel-control-next {
   right: -6% !important;
+}
+.carousel-item {
+  width: auto;
 }
 
 .carousel-img {
@@ -210,12 +241,20 @@ a {
   font: Bold 14px/19px Open Sans;
   text-align: left;
 }
+#companyInfoSection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .user-store {
   padding: 5px;
   color: #212326;
   font: bold 14px/19px Open Sans;
   text-align: left;
+}
+.sell-online {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .nav-pills .nav-link.active,
@@ -225,14 +264,64 @@ a {
 }
 
 .container {
-  width: 1500px;
+  /* width: 1500px; */
   margin: auto;
 }
 
 @media only screen and (max-width: 900px) {
+  .copyright {
+    font-size: 12px;
+  }
+  .carousel-control-next img {
+    width: 100%;
+  }
+  .carousel-control-prev img {
+    width: 100%;
+  }
   .nav-link.active {
     width: 12%;
     padding: 11px;
+  }
+  .advert {
+    font-size: 30px;
+  }
+  .testimony-container {
+    width: 100%;
+    display: block;
+  }
+  .img-container {
+    width: 50%;
+    text-align: center;
+  }
+  .testimony-content {
+    font: bold Italic 15px/28px Open Sans;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-profile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-website {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-store {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .testimony-text-container {
+    width: 50%;
+    padding: 19px;
+  }
+  .carousel-control-prev {
+    left: -4px !important;
+  }
+  .carousel-control-next {
+    right: -4px !important;
+  }
+  .start_selling {
+    font-size: 30px;
   }
 }
 
