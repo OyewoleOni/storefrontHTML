@@ -13,7 +13,7 @@ img {
   width: 100%;
 }
 .arrow-img {
-  width: 19%;
+  width: 50px;
 }
 
 #nav {
@@ -322,6 +322,26 @@ a {
   }
   .start_selling {
     font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+  .testimony-content {
+    font: bold Italic 15px/28px Open Sans;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-profile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-website {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .user-store {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
