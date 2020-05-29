@@ -4,14 +4,15 @@
     
 } */
 
-html,
-body {
+html, body {
   width: 100%;
   overflow-x: hidden;
 }
+
 img {
   width: 100%;
 }
+
 .arrow-img {
   width: 50px;
 }
@@ -19,6 +20,7 @@ img {
 #nav {
   padding-top: 10px;
 }
+
 a {
   color: #42474c;
   text-decoration: none;
@@ -36,10 +38,12 @@ a {
   font-weight: 700;
   color: #004c3f;
 }
+
 .shop-btn {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .green-section {
   padding: 20px;
   text-align: center;
@@ -79,6 +83,7 @@ a {
   font-size: 16px;
   width: 268px;
 }
+
 .button_div {
   text-align: center;
   margin-top: 50px;
@@ -202,8 +207,13 @@ a {
   text-align: justify;
   color: #212326;
 }
+
 #right img {
   width: 100%;
+}
+
+#sellonlineSection {
+  background-image: url("../images/selling-background.jpg");
 }
 
 .user-profile {
@@ -216,9 +226,11 @@ a {
 .carousel-control-prev {
   left: -6% !important;
 }
+
 .carousel-control-next img {
   width: 30%;
 }
+
 .carousel-control-prev img {
   width: 30%;
 }
@@ -226,6 +238,7 @@ a {
 .carousel-control-next {
   right: -6% !important;
 }
+
 .carousel-item {
   width: auto;
 }
@@ -241,6 +254,7 @@ a {
   font: Bold 14px/19px Open Sans;
   text-align: left;
 }
+
 #companyInfoSection {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -252,13 +266,13 @@ a {
   font: bold 14px/19px Open Sans;
   text-align: left;
 }
+
 .sell-online {
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff !important;
   background-color: #008060;
 }
@@ -352,6 +366,7 @@ a {
 .nav-item {
   padding-top: 21px;
 }
+
 .logo {
   padding-top: 0px;
 }
