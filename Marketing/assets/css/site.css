@@ -10,7 +10,7 @@ html, body {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .arrow-img {
@@ -199,6 +199,9 @@ a {
 .testimony-text-container {
   width: 40%;
   padding: 7px;
+}
+.learn_more_row {
+    margin-top: 90px;;
 }
 
 .testimony-content {
