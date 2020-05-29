@@ -200,8 +200,10 @@ a {
   width: 40%;
   padding: 7px;
 }
+
 .learn_more_row {
-    margin-top: 90px;;
+  margin-top: 90px;
+  ;
 }
 
 .testimony-content {
@@ -217,6 +219,9 @@ a {
 
 #sellonlineSection {
   background-image: url("../images/selling-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .user-profile {
