@@ -21,22 +21,25 @@ img {
   padding-top: 10px;
 }
 
-a {
+.card-body h5 a {
   color: #42474c;
   text-decoration: none;
   background-color: transparent;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .advert {
-  /* padding-top: 130px; */
+  padding-top: 30px;
   margin-top: auto;
   font-size: 55px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   color: #004c3f;
+}
+.logo-img {
+  width: 85%;
 }
 
 .shop-btn {
