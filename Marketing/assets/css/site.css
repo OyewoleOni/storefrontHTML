@@ -221,7 +221,7 @@ img {
 }
 
 #sellonlineSection {
-  background-image: url("../images/selling-background.jpg");
+  background-image: url("https://siteb.s3.amazonaws.com/assets/storefront/images/selling-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
