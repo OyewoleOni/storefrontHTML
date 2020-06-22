@@ -31,7 +31,6 @@ img {
 
 #intro {
   padding-top: 7em;
-  padding-bottom: 7em;
 }
 
 #checkCustomerSection {
@@ -40,6 +39,11 @@ img {
 
 #testimonySection {
   padding-top: 7em;
+}
+
+#navbarSupportedContent .navbar-nav li.active>a {
+  background-color: #008060;
+  color: #ffffff;
 }
 
 #features {

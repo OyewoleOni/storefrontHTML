@@ -27,13 +27,13 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active logo">
+              <li class="nav-item  logo">
                 <img class="nav-link logo-img" alt="Storefront"
                   src="http://siteb.s3.amazonaws.com/assets/storefront/Storefront_logo.png">
 
                 <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
               </li>
-              <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" style="font-weight: 600;" href="#intro">Home</a>
               </li>
               <li class="nav-item">
@@ -57,7 +57,7 @@
                 <a class="nav-link" href="/App/Store/Dashboard.aspx">Sign In</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../App/Signup/Signup.aspx">Sign Up</a>
+                <a class="nav-link " href="../App/Signup/Signup.aspx">Sign Up</a>
               </li>
             </ul>
           </div>
@@ -465,6 +465,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+  <script>
+    $('#navbarSupportedContent .navbar-nav a').on('click', function () {
+      $('#navbarSupportedContent .navbar-nav').find('li.active').removeClass('active');
+      $(this).parent('li').addClass('active');
+    });
+  </script>
 </body>
 
 </html>
