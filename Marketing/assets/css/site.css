@@ -13,12 +13,48 @@ img {
   /* width: 100%; */
 }
 
+.nav-container {
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 101;
+}
+
 .arrow-img {
   width: 50px;
 }
 
 #nav {
   padding-top: 10px;
+}
+
+#intro {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+#checkCustomerSection {
+  padding-top: 7em;
+}
+
+#testimonySection {
+  padding-top: 7em;
+}
+
+#features {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+#blogSection {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+#companyInfoSection {
+  padding-top: 7em;
+  padding-bottom: 7em;
 }
 
 .card-body h5 a {
